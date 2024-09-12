@@ -1,0 +1,31 @@
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the menu items horizontally */
+}
+
+#menu li {
+    margin: 0 15px; /* Space between each menu item */
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white; /* Link color */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+#menu li a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #ffdd57; /* Text color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
